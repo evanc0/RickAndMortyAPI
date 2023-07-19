@@ -1,0 +1,276 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+.wrapper_header {
+
+}
+
+.header_up {
+    display: flex;
+    justify-content: space-between;
+}
+.header_left {
+
+}
+
+.header_icon {
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.header_right {
+    margin: 10px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.header_document {
+    margin-top: 3px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    &:hover {
+        color: orange;
+    }
+}
+
+.header_about-us {
+    margin-top: 3px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    &:hover {
+        color: orange;
+    }
+}
+
+.header_support-us {
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 3px;
+    &:hover{
+        background-color: orange;
+        color: white;
+    }
+}
+
+.header_main {
+    padding-bottom: 120px;
+}
+
+.header_name {
+    padding-top: 150px;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.wrapper_main {
+    width: 100%;
+    background-color: rgba(39, 43, 51, 1);
+    padding: 50px 0px;
+}
+
+.main_filter{
+    .wrapper_filter{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 30px 30px;
+        padding: 35px 30px 35px 30px;
+        border: 1px solid white;
+
+        .filter_name{
+            font-family: 'Kanit', sans-serif;
+            color: white;
+            font-size: 20px;
+            background-color: rgba(39, 43, 51, 1);
+            padding: 20px;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+
+        .filter{
+            display: flex;
+            gap: 30px;
+        }
+
+        .filter_accept {
+            
+            font-family: 'Kanit', sans-serif;
+            color: white;
+            font-size: 20px;
+            background-color: rgb(0, 177, 88);
+            padding: 20px;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+    }
+}
+
+.main_content {
+
+}
+
+.wrapper_main {
+    display: flex;
+    flex-direction: column;
+
+}
+.main_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    gap: 20px;
+    
+}
+
+.main_start {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 30px;
+    background-color: rgba(39, 43, 51, 1);
+    padding: 20px;
+    border: 1px solid white;
+}
+
+.main_card {
+    display: flex;
+}
+
+.card_left {
+
+}
+.card_left-img {
+    border-radius: 15px  0px 0px 15px;
+    width: 230px;
+    height: 220px;
+}
+.card_right {
+    padding-top: 13.5px;
+    border-radius: 0px  15px 15px 0px;
+    width: 370px;
+    padding-left:20px ;
+    background-color: rgba(60, 62, 68, 1);
+}
+.card_name {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+.card_status-species {
+    padding-top: 5px;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 13px;
+    position: relative;
+    left: 15px;
+      .card_status{
+        content: "";
+        margin-top: 2.5px;
+        position: absolute;
+        top: 50%;
+        left: -10px; /* Расстояние между кружком и текстом */
+        transform: translate(-50%, -50%);
+        width: 10px; /* Диаметр кружка */
+        height: 10px; /* Диаметр кружка */
+        border-radius: 50%;
+        background-color: rgb(158, 158, 158); /* Цвет кружка */
+      }
+}
+.card_last-location {
+    padding-top: 30px ;
+
+    .last-location-placeholder {
+        font-family: 'Kanit', sans-serif;
+        color: rgb(177, 177, 177);
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+
+    .last-location-info {
+        font-family: 'Kanit', sans-serif;
+        color: white;
+        font-size: 15px;
+        &:hover {
+            color: orange;
+        }
+    }
+
+}
+.card_first-seen {
+    padding-top: 30px;
+
+    .first-seen-placeholder {
+        font-family: 'Kanit', sans-serif;
+        color: rgb(177, 177, 177);
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+
+    .first-seen-info {
+        font-family: 'Kanit', sans-serif;
+        color: white;
+        font-size: 15px;
+        &:hover {
+            color: orange;
+        }
+    }
+}
+
+
+.main_pagination {
+padding: 50px 30px 0px 30px;
+display: flex;
+justify-content: space-between;
+
+    .pagination_first {
+        width: 100px;
+        font-family: 'Kanit', sans-serif;
+        color: white;
+        font-size: 15px;
+        background-color: rgba(39, 43, 51, 1);
+        padding: 15px;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+
+    .pagination_last {
+        width: 100px;
+        font-family: 'Kanit', sans-serif;
+        color: white;
+        font-size: 15px;
+        background-color: rgba(39, 43, 51, 1);
+        padding: 15px;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+
+    .pagination_menu {
+
+        .pagination_num{
+            width: 100px;
+        font-family: 'Kanit', sans-serif;
+        color: white;
+        font-size: 15px;
+        background-color: rgba(39, 43, 51, 1);
+        padding: 15px;
+        border: 1px solid white;
+        border-radius: 5px;
+        &:hover {
+            // cursor: pointer;
+            background-color: rgb(105, 116, 138);
+        }
+
+        }
+
+        .num_select {
+            background-color: rgb(122, 123, 126);
+        }
+    }
+
+}
+
